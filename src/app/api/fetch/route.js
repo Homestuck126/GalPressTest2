@@ -5,7 +5,7 @@ export const POST  = async (req) => {
   console.log(text)
 
     try {
-      const response = await fetch('https://23a9-34-148-254-180.ngrok-free.app/run-script', {
+      const response = await fetch('https://780b-34-106-238-35.ngrok-free.app/run-script', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
